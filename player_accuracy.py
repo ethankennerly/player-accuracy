@@ -5,15 +5,26 @@ basketball field goals and baseball hits.
 More info in README.md
 """
 
-from pandas import read_csv
+from pandas import DataFrame, read_csv
+
 
 def extract_accuracy(gamelog, attempt_name, correct_name):
-    accuracy = gamelog[[attempt_name, correct_name]]
-    accuracy.columns = ['attempts', 'corrects']
+    accuracy = DataFrame()
+    accuracy['attempts'] = gamelog[attempt_name]
+    accuracy['corrects'] = gamelog[correct_name]
     accuracy['accuracy'] = accuracy['corrects'] / accuracy['attempts']
     accuracy['errors'] = accuracy['attempts'] - accuracy['corrects']
     accuracy['inaccuracy'] = accuracy['attempts'] / accuracy['corrects']
     return accuracy
+
+
+def quantile_dispersion(frame, quantiles=[0.25, 0.75]):
+    quantiled = frame.quantile(quantiles).transpose()
+    lower = quantiles[0]
+    upper = quantiles[-1]
+    dispersion = (quantiled[upper] - quantiled[lower]
+        ) / (quantiled[upper] + quantiled[lower])
+    return dispersion
 
 
 if '__main__' == __name__:

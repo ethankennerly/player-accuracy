@@ -50,6 +50,7 @@ How to compare dispersion between different game systems?
 
 * Percentiles among game players' latest session
 * Quartile coefficient of dispersion
+* Z-score among game players' latest session
 
 Percentiles converts different distributions and normalizes outliers.
 
@@ -124,7 +125,7 @@ He made these field goals:
     2    3
     Name: FG, dtype: int64
 
-We can apply candidate metrics of accuracy.
+I applied candidate metrics of accuracy.
 
     >>> abdul_accuracy = extract_accuracy(abdul3, 'FGA', 'FG')
     >>> abdul_accuracy
@@ -132,4 +133,40 @@ We can apply candidate metrics of accuracy.
     0        10         3  0.300000       7    3.333333
     1         7         5  0.714286       2    1.400000
     2         8         3  0.375000       5    2.666667
+
+To normalize, I extended percentiles from all accuracies.
+
+    >>> abdul_pct = abdul_accuracy.rank(pct = True)
+    >>> abdul_pct
+       attempts  corrects  accuracy    errors  inaccuracy
+    0  1.000000       0.5  0.333333  1.000000    1.000000
+    1  0.333333       1.0  1.000000  0.333333    0.333333
+    2  0.666667       0.5  0.666667  0.666667    0.666667
+
+Standard deviations of the percentiles:
+
+    >>> abdul_pct.std()
+    attempts      0.333333
+    corrects      0.288675
+    accuracy      0.333333
+    errors        0.333333
+    inaccuracy    0.333333
+    dtype: float64
+
+Upper and lower quartiles:
+
+    >>> abdul_pct.quantile([0.25, 0.75])
+          attempts  corrects  accuracy    errors  inaccuracy
+    0.25  0.500000      0.50  0.500000  0.500000    0.500000
+    0.75  0.833333      0.75  0.833333  0.833333    0.833333
+
+Quartile coefficient of dispersion as (Q3-Q1)/(Q3+Q1)
+
+    >>> quantile_dispersion(abdul_pct)
+    attempts      0.25
+    corrects      0.20
+    accuracy      0.25
+    errors        0.25
+    inaccuracy    0.25
+    dtype: float64
 

@@ -102,6 +102,7 @@ Script is in `player_accuracy.py`
 In games of 1988-1989 season, Kareem Abdul-Jabbar.
 
     >>> abdul = read_csv('abdulka01_gamelog_1989.csv')
+    >>> abdul['group'] = 'abdul'
 
 <http://www.basketball-reference.com/players/a/abdulka01/gamelog/1989>
 
@@ -127,8 +128,8 @@ He made these field goals:
 
 I applied candidate metrics of accuracy.
 
-    >>> abdul_accuracy = extract_accuracy(abdul3, 'FGA', 'FG')
-    >>> abdul_accuracy
+    >>> abdul3_accuracy = extract_accuracy(abdul3, 'FGA', 'FG')
+    >>> abdul3_accuracy
        attempts  corrects  accuracy  errors  inaccuracy
     0        10         3  0.300000       7    3.333333
     1         7         5  0.714286       2    1.400000
@@ -136,8 +137,8 @@ I applied candidate metrics of accuracy.
 
 To normalize, I extended percentiles from all accuracies.
 
-    >>> abdul_pct = abdul_accuracy.rank(pct = True)
-    >>> abdul_pct
+    >>> abdul3_pct = abdul3_accuracy.rank(pct = True)
+    >>> abdul3_pct
        attempts  corrects  accuracy    errors  inaccuracy
     0  1.000000       0.5  0.333333  1.000000    1.000000
     1  0.333333       1.0  1.000000  0.333333    0.333333
@@ -145,7 +146,7 @@ To normalize, I extended percentiles from all accuracies.
 
 Standard deviations of the percentiles:
 
-    >>> abdul_pct.std()
+    >>> abdul3_pct.std()
     attempts      0.333333
     corrects      0.288675
     accuracy      0.333333
@@ -155,14 +156,14 @@ Standard deviations of the percentiles:
 
 Upper and lower quartiles:
 
-    >>> abdul_pct.quantile([0.25, 0.75])
+    >>> abdul3_pct.quantile([0.25, 0.75])
           attempts  corrects  accuracy    errors  inaccuracy
     0.25  0.500000      0.50  0.500000  0.500000    0.500000
     0.75  0.833333      0.75  0.833333  0.833333    0.833333
 
 Quartile coefficient of dispersion as (Q3-Q1)/(Q3+Q1)
 
-    >>> quantile_dispersion(abdul_pct)
+    >>> quantile_dispersion(abdul3_pct)
     attempts      0.25
     corrects      0.20
     accuracy      0.25
@@ -172,7 +173,7 @@ Quartile coefficient of dispersion as (Q3-Q1)/(Q3+Q1)
 
 Summarized dispersion:
 
-    >>> disperse(abdul_accuracy)
+    >>> disperse(abdul3_accuracy)
                     mean  quartile       std
     attempts    0.666667      0.25  0.333333
     corrects    0.666667      0.20  0.288675
@@ -180,3 +181,33 @@ Summarized dispersion:
     errors      0.666667      0.25  0.333333
     inaccuracy  0.666667      0.25  0.333333
 
+    >>> abdul_accuracy = extract_accuracy(abdul, 'FGA', 'FG')
+    >>> disperse(abdul_accuracy)
+                    mean  quartile       std
+    attempts    0.506757  0.400000  0.288544
+    corrects    0.506757  0.397849  0.287097
+    accuracy    0.506757  0.502609  0.290275
+    errors      0.506757  0.483444  0.287823
+    inaccuracy  0.506757  0.462400  0.290275
+
+## Comparing two basketball players
+
+I loaded two players' files.  Example: Steph Curry from 2016.
+
+    >>> curry = read_csv('curryst01_gamelog_2016.csv')
+    >>> curry['group'] = 'curry'
+    >>> curry3 = curry[0:3]
+
+<http://www.basketball-reference.com/players/c/curryst01/gamelog/2016/>
+
+Coerced type to numeric.
+<http://stackoverflow.com/questions/15891038/pandas-change-data-type-of-columns>
+
+    >>> couple3 = pandas.concat([abdul3, curry3])
+    >>> couple3_accuracy = extract_accuracy(couple3, 'FGA', 'FG', 'group')
+    >>> groups = percentile_groups(couple3_accuracy, 'group')
+    >>> groups.std()
+           attempts  corrects  accuracy    errors  inaccuracy
+    group                                                    
+    abdul  0.166667  0.144338  0.440959  0.254588    0.440959
+    curry  0.166667  0.166667  0.166667  0.254588    0.166667

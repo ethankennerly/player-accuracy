@@ -5,13 +5,17 @@ basketball field goals and baseball hits.
 More info in README.md
 """
 
-from pandas import DataFrame, read_csv
+from pandas import DataFrame, read_csv, to_numeric
+import pandas
 
 
-def extract_accuracy(gamelog, attempt_name, correct_name):
+def extract_accuracy(gamelog, attempt_name, correct_name, group_name = None):
     accuracy = DataFrame()
     accuracy['attempts'] = gamelog[attempt_name]
     accuracy['corrects'] = gamelog[correct_name]
+    accuracy = accuracy.apply(lambda x: to_numeric(x, errors='coerce'))
+    if group_name:
+        accuracy['group'] = gamelog[group_name]
     accuracy['accuracy'] = accuracy['corrects'] / accuracy['attempts']
     accuracy['errors'] = accuracy['attempts'] - accuracy['corrects']
     accuracy['inaccuracy'] = accuracy['attempts'] / accuracy['corrects']
@@ -34,6 +38,13 @@ def disperse(accuracy):
     dispersion['quartile'] = quantile_dispersion(pct)
     dispersion['std'] = pct.std()
     return dispersion
+
+
+def percentile_groups(accuracy, group_name):
+    pct = accuracy.rank(pct = True)
+    pct[group_name] = accuracy[group_name]
+    groups = pct.groupby(group_name)
+    return groups
 
 
 if '__main__' == __name__:

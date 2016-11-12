@@ -27,6 +27,15 @@ def quantile_dispersion(frame, quantiles=[0.25, 0.75]):
     return dispersion
 
 
+def disperse(accuracy):
+    pct = accuracy.rank(pct = True)
+    dispersion = DataFrame()
+    dispersion['mean'] = pct.mean()
+    dispersion['quartile'] = quantile_dispersion(pct)
+    dispersion['std'] = pct.std()
+    return dispersion
+
+
 if '__main__' == __name__:
     from doctest import testfile
     testfile('README.md')

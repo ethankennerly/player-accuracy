@@ -170,3 +170,13 @@ Quartile coefficient of dispersion as (Q3-Q1)/(Q3+Q1)
     inaccuracy    0.25
     dtype: float64
 
+Summarized dispersion:
+
+    >>> disperse(abdul_accuracy)
+                    mean  quartile       std
+    attempts    0.666667      0.25  0.333333
+    corrects    0.666667      0.20  0.288675
+    accuracy    0.666667      0.25  0.333333
+    errors      0.666667      0.25  0.333333
+    inaccuracy  0.666667      0.25  0.333333
+

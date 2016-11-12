@@ -30,9 +30,9 @@ This was in CSV format.  Example:
 
 ## Candidate metrics of accuracy
 
-* Number of errors
-* Number correct / number of tries
-* Number of tries / perfect number of tries
+* Accuracy:  Number correct / number of tries
+* Inaccuracy:  Number of tries / number correct
+* Errors:  Number of tries - number correct
 
 ### Normalizing different number of attempts
 
@@ -98,25 +98,38 @@ Script is in `player_accuracy.py`
 
 ```
 
-In the first 4 games of 1988-1989 season, Kareem Abdul-Jabbar.
+In games of 1988-1989 season, Kareem Abdul-Jabbar.
 
     >>> abdul = read_csv('abdulka01_gamelog_1989.csv')
 
-He attempted these field goals:
+<http://www.basketball-reference.com/players/a/abdulka01/gamelog/1989>
 
-    >>> abdul['FGA'][0:4]
+In the first three games, 
+
+    >>> abdul3 = abdul[0:3]
+
+he attempted these field goals:
+
+    >>> abdul3['FGA']
     0    10
     1     7
     2     8
-    3     4
     Name: FGA, dtype: int64
 
 He made these field goals:
 
-    >>> abdul['FG'][0:4]
+    >>> abdul3['FG']
     0    3
     1    5
     2    3
-    3    3
     Name: FG, dtype: int64
+
+We can apply candidate metrics of accuracy.
+
+    >>> abdul_accuracy = extract_accuracy(abdul3, 'FGA', 'FG')
+    >>> abdul_accuracy
+       attempts  corrects  accuracy  errors  inaccuracy
+    0        10         3  0.300000       7    3.333333
+    1         7         5  0.714286       2    1.400000
+    2         8         3  0.375000       5    2.666667
 

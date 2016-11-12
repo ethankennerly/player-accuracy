@@ -79,7 +79,44 @@ Coefficient of variation is fragile to distributions.  To quote Wikipedia:
 > The sample standard deviations are 15.81 and 28.46 respectively. The CV of the first set is 15.81/20 = 0.79. For the second set (which are the same temperatures) it is 28.46/68 = 0.42.
 >
 > If, for example, the data sets are temperature readings from two different sensors (a Celsius sensor and a Fahrenheit sensor) and you want to know which sensor is better by picking the one with the least variance then you will be misled if you use CV. The problem here is that neither sensor is better in this case, because the data sets are direct conversions of each other, but the CV of each data set is different: 0.79 versus 0.42.
+
 <https://en.wikipedia.org/wiki/Coefficient_of_variation>
 <https://en.wikipedia.org/wiki/Statistical_dispersion>
 <https://en.wikipedia.org/wiki/Quartile_coefficient_of_dispersion>
+
+
+### Reading tables
+
+Using Pandas.
+
+    $ pip install pandas
+
+Script is in `player_accuracy.py`
+
+```python
+    >>> from player_accuracy import *
+
+```
+
+In the first 4 games of 1988-1989 season, Kareem Abdul-Jabbar.
+
+    >>> abdul = read_csv('abdulka01_gamelog_1989.csv')
+
+He attempted these field goals:
+
+    >>> abdul['FGA'][0:4]
+    0    10
+    1     7
+    2     8
+    3     4
+    Name: FGA, dtype: int64
+
+He made these field goals:
+
+    >>> abdul['FG'][0:4]
+    0    3
+    1    5
+    2    3
+    3    3
+    Name: FG, dtype: int64
 

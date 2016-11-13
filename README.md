@@ -1,4 +1,4 @@
-# TODO: How can basketball field goals and baseball hits be compared?
+# How can basketball field goals and baseball hits be compared?
 
 In general, I find it interesting to compare game systems by player performance metrics.
 
@@ -205,8 +205,8 @@ Coerced type to numeric.
 
     >>> couple3 = pandas.concat([abdul3, curry3])
     >>> couple3_accuracy = extract_accuracy(couple3, 'FGA', 'FG', 'group')
-    >>> groups = percentile_groups(couple3_accuracy, 'group')
-    >>> groups.std()
+    >>> couples = percentile_groups(couple3_accuracy, 'group')
+    >>> couples.std()
            attempts  corrects  accuracy    errors  inaccuracy
     group                                                    
     abdul  0.166667  0.144338  0.440959  0.254588    0.440959
@@ -222,10 +222,43 @@ From single TSV:
 
     >>> basketball = read_table('test_basketball.tsv')
     >>> basketball_accuracy = extract_accuracy(basketball, 'FGA', 'FG', 'group')
-    >>> basketball_groups = percentile_groups(basketball_accuracy, 'group')
-    >>> basketball_groups.std()
+    >>> basketball_couples = percentile_groups(basketball_accuracy, 'group')
+    >>> basketball_couples.std()
                                 attempts  corrects  accuracy    errors  inaccuracy
     group                                                                         
     abdulka01_gamelog_1989.csv  0.155893  0.176857  0.330741  0.196354    0.330741
     curryst01_gamelog_2016.csv  0.183930  0.208041  0.244382  0.205616    0.244382
 
+Baseball:
+
+    >>> baseball = concat_csvs([
+    ...     'arroybr01_gamelog_batting_2014.csv',
+    ...     'fernajo02_gamelog_batting_2016.csv'],
+    ...     'group')
+    >>> baseball_accuracy = extract_accuracy(baseball, 'AB', 'H', 'group')
+    >>> baseball_couples = percentile_groups(baseball_accuracy, 'group')
+    >>> baseball_couples.std()
+                                        attempts  corrects  accuracy    errors  \
+    group                                                                        
+    arroybr01_gamelog_batting_2014.csv  0.300723  0.255933  0.229543  0.248559   
+    fernajo02_gamelog_batting_2016.csv  0.251344  0.254004  0.273102  0.298018   
+    <BLANKLINE>
+                                        inaccuracy  
+    group                                           
+    arroybr01_gamelog_batting_2014.csv    0.229543  
+    fernajo02_gamelog_batting_2016.csv    0.273102  
+
+    >>> baseball_couples.std().median()
+    attempts      0.276034
+    corrects      0.254968
+    accuracy      0.251323
+    errors        0.273288
+    inaccuracy    0.251323
+    dtype: float64
+
+I summarized by median of standard deviations.  For example, here are two basketball players and two baseball players for their games in a season each.
+
+    >>> std_median([basketball_couples, baseball_couples],    ['basketball_couple', 'baseball_couple'])
+                       attempts  corrects  accuracy    errors  inaccuracy
+    basketball_couple  0.169912  0.192449  0.287561  0.200985    0.287561
+    baseball_couple    0.276034  0.254968  0.251323  0.273288    0.251323

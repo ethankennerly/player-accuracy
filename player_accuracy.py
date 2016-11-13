@@ -57,6 +57,15 @@ def concat_csvs(paths, group_name):
     return everybody
 
 
+def std_median(groups, names):
+    frame = DataFrame()
+    for group, name in zip(groups, names):
+        median = group.std().median()
+        frame[name] = median
+    frame = frame.transpose()
+    return frame
+
+
 if '__main__' == __name__:
     from doctest import testfile
     testfile('README.md')

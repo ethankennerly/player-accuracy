@@ -64,28 +64,6 @@ Then dispersion of percentiles.
 
 Quartile dispersion ignores outliers and half of the sample.
 
-### Not coefficient of variation
-
-Coefficient of variation is fragile to distributions.  To quote Wikipedia:
-
-> A more robust possibility is the quartile coefficient of dispersion, i.e. interquartile range {\displaystyle {(Q_{3}-Q_{1})/2}} {\displaystyle {(Q_{3}-Q_{1})/2}} divided by the average of the quartiles (the midhinge), {\displaystyle {(Q_{1}+Q_{3})/2}} {\displaystyle {(Q_{1}+Q_{3})/2}}.
-> ...
-> Examples of misuse[edit]
-> To see why the coefficient of variation should not be applied to interval level data, compare the same set of temperatures in Celsius and Fahrenheit:
->
-> Celsius: [0, 10, 20, 30, 40]
-> 
-> Fahrenheit: [32, 50, 68, 86, 104]
->
-> The sample standard deviations are 15.81 and 28.46 respectively. The CV of the first set is 15.81/20 = 0.79. For the second set (which are the same temperatures) it is 28.46/68 = 0.42.
->
-> If, for example, the data sets are temperature readings from two different sensors (a Celsius sensor and a Fahrenheit sensor) and you want to know which sensor is better by picking the one with the least variance then you will be misled if you use CV. The problem here is that neither sensor is better in this case, because the data sets are direct conversions of each other, but the CV of each data set is different: 0.79 versus 0.42.
-
-<https://en.wikipedia.org/wiki/Coefficient_of_variation>
-<https://en.wikipedia.org/wiki/Statistical_dispersion>
-<https://en.wikipedia.org/wiki/Quartile_coefficient_of_dispersion>
-
-
 ### Reading tables
 
 Using Pandas.
@@ -205,12 +183,12 @@ Coerced type to numeric.
 
     >>> couple3 = pandas.concat([abdul3, curry3])
     >>> couple3_accuracy = extract_accuracy(couple3, 'FGA', 'FG', 'group')
-    >>> couples = percentile_groups(couple3_accuracy, 'group')
+    >>> couples = couple3_accuracy.groupby('group')
     >>> couples.std()
            attempts  corrects  accuracy    errors  inaccuracy
     group                                                    
-    abdul  0.166667  0.144338  0.440959  0.254588    0.440959
-    curry  0.166667  0.166667  0.166667  0.254588    0.166667
+    abdul  1.527525  1.154701  0.220746  2.516611    0.982061
+    curry  6.658328  4.041452  0.046505  3.055050    0.138290
 
 From multiple CSVs:
 
@@ -222,12 +200,12 @@ From single TSV:
 
     >>> basketball = read_table('test_basketball.tsv')
     >>> basketball_accuracy = extract_accuracy(basketball, 'FGA', 'FG', 'group')
-    >>> basketball_couples = percentile_groups(basketball_accuracy, 'group')
+    >>> basketball_couples = basketball_accuracy.groupby('group')
     >>> basketball_couples.std()
                                 attempts  corrects  accuracy    errors  inaccuracy
     group                                                                         
-    abdulka01_gamelog_1989.csv  0.155893  0.176857  0.330741  0.196354    0.330741
-    curryst01_gamelog_2016.csv  0.183930  0.208041  0.244382  0.205616    0.244382
+    abdulka01_gamelog_1989.csv  3.311122  1.962297  0.175021  2.433263    1.033569
+    curryst01_gamelog_2016.csv  4.787669  3.471776  0.111805  3.094424    0.565446
 
 Baseball:
 
@@ -236,45 +214,113 @@ Baseball:
     ...     'fernajo02_gamelog_batting_2016.csv'],
     ...     'group')
     >>> baseball_accuracy = extract_accuracy(baseball, 'AB', 'H', 'group')
-    >>> baseball_couples = percentile_groups(baseball_accuracy, 'group')
+    >>> baseball_couples = baseball_accuracy.groupby('group')
     >>> baseball_couples.std()
                                         attempts  corrects  accuracy    errors  \
     group                                                                        
-    arroybr01_gamelog_batting_2014.csv  0.300723  0.255933  0.229543  0.248559   
-    fernajo02_gamelog_batting_2016.csv  0.251344  0.254004  0.273102  0.298018   
+    arroybr01_gamelog_batting_2014.csv  6.354788  1.527525  0.247978  4.951431   
+    fernajo02_gamelog_batting_2016.csv  9.337013  2.425237  0.392872  7.051360   
     <BLANKLINE>
                                         inaccuracy  
     group                                           
-    arroybr01_gamelog_batting_2014.csv    0.229543  
-    fernajo02_gamelog_batting_2016.csv    0.273102  
+    arroybr01_gamelog_batting_2014.csv         NaN  
+    fernajo02_gamelog_batting_2016.csv         NaN  
 
     >>> baseball_couples.std().median()
-    attempts      0.276034
-    corrects      0.254968
-    accuracy      0.251323
-    errors        0.273288
-    inaccuracy    0.251323
+    attempts      7.845900
+    corrects      1.976381
+    accuracy      0.320425
+    errors        6.001395
+    inaccuracy         NaN
     dtype: float64
 
 I summarized by median of standard deviations.  For example, here are two basketball players and two baseball players for their games in a season each.
 
     >>> std_median([basketball_couples, baseball_couples],    ['basketball_couple', 'baseball_couple'])
                        attempts  corrects  accuracy    errors  inaccuracy
-    basketball_couple  0.169912  0.192449  0.287561  0.200985    0.287561
-    baseball_couple    0.276034  0.254968  0.251323  0.273288    0.251323
+    basketball_couple  4.049396  2.717037  0.143413  2.763844    0.799508
+    baseball_couple    7.845900  1.976381  0.320425  6.001395         NaN
 
 
 I entered multiple files into configuration in `player_accuracy_config.py`:
 
     >>> baseball.to_csv('test_baseball.tsv', index=False, sep='\t')
-    >>> configs['test']
+    >>> configs['test_ball']
     [['test_baseball.tsv', 'AB', 'H', 'group'], ['test_basketball.tsv', 'FGA', 'FG', 'group']]
-    >>> print(compare_tsv('test', configs))
+    >>> print(compare_tsv('test_ball', configs)) #doctest: +NORMALIZE_WHITESPACE
     group	attempts	corrects	accuracy	errors	inaccuracy
-    test_baseball.tsv	0.276	0.255	0.251	0.273	0.251
-    test_basketball.tsv	0.17	0.192	0.288	0.201	0.288
+    test_baseball.tsv	7.846	1.976	0.32	6.001	
+    test_basketball.tsv	4.049	2.717	0.143	2.764	0.8
     <BLANKLINE>
 
 From the command line I called the key to read this.  I could save the output to a file.
 
     $ python player_accuracy.py test > test_std.tsv
+
+
+# Comparing to random
+
+What are the differences between these data sets?
+
+* Random attempts by players with fixed accuracy rates: 0.25, 0.5, 0.75.
+* Random attempts by players with random accuracy rates.
+* Ten game sessions by ten players.
+* A hundred game sessions by a hundred players.
+* A thousand game sessions by a thousand players.
+
+I simulated simple trials.  For consistent testing, these do not overwrite files if they already exist.
+
+    >>> accuracy_ranges = [[0.25, 0.25], [0.5, 0.5], [0.75, 0.75], [0.0, 1.0]]
+    >>> players_sessions = [10, 100]
+    >>> from pprint import pprint
+    >>> pprint(random_csvs(accuracy_ranges, players_sessions))
+    ['test_random_0.25_0.25_10_10.tsv',
+     'test_random_0.25_0.25_100_100.tsv',
+     'test_random_0.5_0.5_10_10.tsv',
+     'test_random_0.5_0.5_100_100.tsv',
+     'test_random_0.75_0.75_10_10.tsv',
+     'test_random_0.75_0.75_100_100.tsv',
+     'test_random_0.0_1.0_10_10.tsv',
+     'test_random_0.0_1.0_100_100.tsv']
+
+I expected more dispersion in the set with a random range.  And more dispersion in smaller sample.
+
+    >>> print(compare_tsv('test_random', configs)) #doctest: +NORMALIZE_WHITESPACE
+    group	attempts	corrects	accuracy	errors	inaccuracy
+    test_random_0.25_0.25_10_10.tsv	0.0	1.329	0.133	1.329	2.892
+    test_random_0.25_0.25_100_100.tsv	0.0	4.305	0.043	4.305	0.754
+    test_random_0.5_0.5_10_10.tsv	0.0	2.023	0.202	2.023	1.087
+    test_random_0.5_0.5_100_100.tsv	0.0	5.005	0.05	5.005	0.208
+    test_random_0.75_0.75_10_10.tsv	0.0	1.13	0.113	1.13	0.225
+    test_random_0.75_0.75_100_100.tsv	0.0	4.344	0.043	4.344	0.079
+    test_random_0.0_1.0_10_10.tsv	0.0	3.287	0.329	3.287	3.189
+    test_random_0.0_1.0_100_100.tsv	0.0	29.166	0.292	29.166	11.774
+    <BLANKLINE>
+
+Median standard deviation of accuracy (corrects / attempts) the most comparable among these metrics.
+
+### Not dispersion of percentiles
+
+I measured dispersion of percentiles of accuracy. The results were probably equal for the random sets.  
+
+### Not coefficient of variation
+
+Coefficient of variation is fragile to distributions.  To quote Wikipedia:
+
+> A more robust possibility is the quartile coefficient of dispersion, i.e. interquartile range {\displaystyle {(Q_{3}-Q_{1})/2}} {\displaystyle {(Q_{3}-Q_{1})/2}} divided by the average of the quartiles (the midhinge), {\displaystyle {(Q_{1}+Q_{3})/2}} {\displaystyle {(Q_{1}+Q_{3})/2}}.
+> ...
+> Examples of misuse[edit]
+> To see why the coefficient of variation should not be applied to interval level data, compare the same set of temperatures in Celsius and Fahrenheit:
+>
+> Celsius: [0, 10, 20, 30, 40]
+> 
+> Fahrenheit: [32, 50, 68, 86, 104]
+>
+> The sample standard deviations are 15.81 and 28.46 respectively. The CV of the first set is 15.81/20 = 0.79. For the second set (which are the same temperatures) it is 28.46/68 = 0.42.
+>
+> If, for example, the data sets are temperature readings from two different sensors (a Celsius sensor and a Fahrenheit sensor) and you want to know which sensor is better by picking the one with the least variance then you will be misled if you use CV. The problem here is that neither sensor is better in this case, because the data sets are direct conversions of each other, but the CV of each data set is different: 0.79 versus 0.42.
+
+<https://en.wikipedia.org/wiki/Coefficient_of_variation>
+<https://en.wikipedia.org/wiki/Statistical_dispersion>
+<https://en.wikipedia.org/wiki/Quartile_coefficient_of_dispersion>
+

@@ -211,3 +211,21 @@ Coerced type to numeric.
     group                                                    
     abdul  0.166667  0.144338  0.440959  0.254588    0.440959
     curry  0.166667  0.166667  0.166667  0.254588    0.166667
+
+From multiple CSVs:
+
+    >>> basketball = concat_csvs(['abdulka01_gamelog_1989.csv',
+    ...     'curryst01_gamelog_2016.csv'], 'group')
+    >>> basketball.to_csv('test_basketball.tsv', index=False, sep='\t')
+
+From single TSV:
+
+    >>> basketball = read_table('test_basketball.tsv')
+    >>> basketball_accuracy = extract_accuracy(basketball, 'FGA', 'FG', 'group')
+    >>> basketball_groups = percentile_groups(basketball_accuracy, 'group')
+    >>> basketball_groups.std()
+                                attempts  corrects  accuracy    errors  inaccuracy
+    group                                                                         
+    abdulka01_gamelog_1989.csv  0.155893  0.176857  0.330741  0.196354    0.330741
+    curryst01_gamelog_2016.csv  0.183930  0.208041  0.244382  0.205616    0.244382
+

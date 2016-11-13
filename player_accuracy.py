@@ -8,6 +8,8 @@ More info in README.md
 from pandas import DataFrame, read_csv, read_table, to_numeric
 import pandas
 
+from player_accuracy_config import configs
+
 
 def extract_accuracy(gamelog, attempt_name, correct_name, group_name = None):
     accuracy = DataFrame()
@@ -64,6 +66,20 @@ def std_median(groups, names):
         frame[name] = median
     frame = frame.transpose()
     return frame
+
+
+def compare_tsv(key, configs):
+    config = configs[key]
+    compares = []
+    paths = []
+    for path, attempt_name, correct_name, group_name in config:
+        table = read_table(path)
+        paths.append(path)
+        accuracy = extract_accuracy(table, attempt_name, correct_name, group_name)
+        groups = percentile_groups(accuracy, group_name)
+        compares.append(groups)
+    std_medians = std_median(compares, paths)
+    return std_medians
 
 
 if '__main__' == __name__:

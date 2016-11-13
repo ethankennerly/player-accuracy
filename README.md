@@ -262,3 +262,14 @@ I summarized by median of standard deviations.  For example, here are two basket
                        attempts  corrects  accuracy    errors  inaccuracy
     basketball_couple  0.169912  0.192449  0.287561  0.200985    0.287561
     baseball_couple    0.276034  0.254968  0.251323  0.273288    0.251323
+
+
+I entered multiple files into configuration in `player_accuracy_config.py`:
+
+    >>> baseball.to_csv('test_baseball.tsv', index=False, sep='\t')
+    >>> configs['test']
+    [['test_baseball.tsv', 'AB', 'H', 'group'], ['test_basketball.tsv', 'FGA', 'FG', 'group']]
+    >>> compare_tsv('test', configs)
+                         attempts  corrects  accuracy    errors  inaccuracy
+    test_baseball.tsv    0.276034  0.254968  0.251323  0.273288    0.251323
+    test_basketball.tsv  0.169912  0.192449  0.287561  0.200985    0.287561

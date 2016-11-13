@@ -1,0 +1,4 @@
+group	attempts	corrects	accuracy	errors	inaccuracy
+test_baseball.tsv	0.276	0.255	0.251	0.273	0.251
+test_basketball.tsv	0.17	0.192	0.288	0.201	0.288
+

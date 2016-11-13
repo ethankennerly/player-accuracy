@@ -269,7 +269,12 @@ I entered multiple files into configuration in `player_accuracy_config.py`:
     >>> baseball.to_csv('test_baseball.tsv', index=False, sep='\t')
     >>> configs['test']
     [['test_baseball.tsv', 'AB', 'H', 'group'], ['test_basketball.tsv', 'FGA', 'FG', 'group']]
-    >>> compare_tsv('test', configs)
-                         attempts  corrects  accuracy    errors  inaccuracy
-    test_baseball.tsv    0.276034  0.254968  0.251323  0.273288    0.251323
-    test_basketball.tsv  0.169912  0.192449  0.287561  0.200985    0.287561
+    >>> print(compare_tsv('test', configs))
+    group	attempts	corrects	accuracy	errors	inaccuracy
+    test_baseball.tsv	0.276	0.255	0.251	0.273	0.251
+    test_basketball.tsv	0.17	0.192	0.288	0.201	0.288
+    <BLANKLINE>
+
+From the command line I called the key to read this.  I could save the output to a file.
+
+    $ python player_accuracy.py test > test_std.tsv

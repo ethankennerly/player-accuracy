@@ -9,6 +9,7 @@ from pandas import DataFrame, read_csv, read_table, to_numeric
 import pandas
 
 from player_accuracy_config import configs
+from StringIO import StringIO
 
 
 def extract_accuracy(gamelog, attempt_name, correct_name, group_name = None):
@@ -79,9 +80,20 @@ def compare_tsv(key, configs):
         groups = percentile_groups(accuracy, group_name)
         compares.append(groups)
     std_medians = std_median(compares, paths)
-    return std_medians
+    std_medians = std_medians.round(3)
+    in_string = StringIO()
+    std_medians.to_csv(in_string, index_label = group_name, sep='\t')
+    return in_string.getvalue()
 
 
 if '__main__' == __name__:
-    from doctest import testfile
-    testfile('README.md')
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--test', action='store_true', help='Run tests in README.md')
+    parser.add_argument('config_key', help='Configuration key in player_accuracy_config.py', default='test')
+    args = parser.parse_args()
+    if args.test:
+        from doctest import testfile
+        testfile('README.md')
+    elif args.config_key:
+        print(compare_tsv(args.config_key, configs))

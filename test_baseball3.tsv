@@ -1,0 +1,214 @@
+Rk	Gcar	Gtm	Date	Tm	Unnamed: 5	Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	group
+1	407	6 (5)	Apr 3	ARI		SFG	L5-8	GS-5	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.000	.000	.000	.000	9	.36	-0.009	-0.09			P	arroybr01_gamelog_batting_2014.csv
+2	408	11 (4)	Apr 9	ARI	@	SFG	W7-3	GS-6	2	2	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.333	.333	.333	.667	9	.18	0.000	0.03			P	arroybr01_gamelog_batting_2014.csv
+3	409	17 (5)	Apr 15	ARI		NYM	L0-9	GS-4	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.250	.250	.250	.500	9	.35	-0.009	-0.09			P	arroybr01_gamelog_batting_2014.csv
+4	410	22 (4)	Apr 21	ARI	@	CHC	L1-5	GS-6	2	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.333	.333	.333	.667	9	.38	0.007	0.23			P	arroybr01_gamelog_batting_2014.csv
+5	411	27 (4)	Apr 26	ARI		PHI	L5-6	GS-7	3	2	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0	.250	.250	.250	.500	9	.45	-0.019	-0.68			P	arroybr01_gamelog_batting_2014.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	arroybr01_gamelog_batting_2014.csv
+6	412	32 (4)	May 2	ARI	@	SDP	W2-0	GS-8	3	3	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.182	.182	.182	.364	9	.54	-0.039	-0.41			P	arroybr01_gamelog_batting_2014.csv
+7	413	37 (4)	May 7	ARI	@	MIL	W3-2	GS-8	4	3	1	1	0	0	0	0	0	0	1	0	1	0	0	0	0	0	.214	.214	.214	.429	9	1.03	-0.015	-0.19			P	arroybr01_gamelog_batting_2014.csv
+8	414	42 (4)	May 13	ARI		WSN	W3-1	CG	3	3	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.294	.294	.294	.588	9	.76	0.069	0.40			P	arroybr01_gamelog_batting_2014.csv
+9	415	47 (4)	May 20	ARI	@	STL	L0-5	GS-8	2	2	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.263	.263	.263	.526	9	.38	-0.018	-0.23			P	arroybr01_gamelog_batting_2014.csv
+10	416	51 (3)	May 25 (1)	ARI	@	NYM	W2-1	GS-7	2	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.238	.238	.238	.476	9	.91	-0.043	-0.33			P	arroybr01_gamelog_batting_2014.csv
+11	417	57 (5)	May 30	ARI		CIN	L4-6	GS-7	2	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	.227	.227	.227	.455	9	1.28	-0.033	-0.30			P	arroybr01_gamelog_batting_2014.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	arroybr01_gamelog_batting_2014.csv
+12	418	62 (4)	Jun 5	ARI	@	COL	W12-7	GS-7	3	2	1	1	0	0	0	0	0	0	1	0	1	0	0	0	0	0	.250	.250	.250	.500	9	.71	-0.006	0.14			P	arroybr01_gamelog_batting_2014.csv
+13	419	65 (2)	Jun 8	ARI		ATL	W6-5	7-8	0	0	1	0	0	0	0	0	0		0	0	0		0		0	0	.250	.250	.250	.500	9		0.000	0.00	2.00	1.00	PR	arroybr01_gamelog_batting_2014.csv
+14	420	67 (1)	Jun 10	ARI		HOU	W4-1	GS-7	2	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.231	.231	.231	.462	9	.93	-0.046	-0.50			P	arroybr01_gamelog_batting_2014.csv
+15	421	72 (4)	Jun 15	ARI	@	LAD	W6-3	GS-6	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.222	.222	.222	.444	9	.69	-0.016	-0.14			P	arroybr01_gamelog_batting_2014.csv
+				ARI					31	27	5	6	0	0	0	0	0	0	12	0	4	0		0	0	0	.222	.222	.222	.444								arroybr01_gamelog_batting_2014.csv
+1	48	2 (1)	Apr 6	MIA		DET	L3-7	GS-6	2	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0		1.000			9	1.33	0.008	0.04			P	fernajo02_gamelog_batting_2016.csv
+2	49	6 (3)	Apr 12	MIA	@	NYM	W2-1	GS-6	2	2	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.500	.667	.500	1.167	9	.67	-0.007	-0.03			P	fernajo02_gamelog_batting_2016.csv
+3	50	11 (4)	Apr 18	MIA		WSN	W6-1	GS-6	2	2	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	.250	.400	.250	.650	9	.57	0.008	0.03			P	fernajo02_gamelog_batting_2016.csv
+4	51	16 (4)	Apr 23	MIA	@	SFG	L2-7	GS-7	2	2	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.500	.571	.500	1.071	9	.63	0.053	0.51			P	fernajo02_gamelog_batting_2016.csv
+5	52	21 (4)	Apr 28	MIA	@	LAD	W5-3	GS-7	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.375	.444	.375	.819	9	.97	-0.048	-0.37			P	fernajo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	fernajo02_gamelog_batting_2016.csv
+6	53	26 (4)	May 4	MIA		ARI	W4-3	GS-6	2	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.300	.364	.300	.664	9	.58	-0.030	-0.44			P	fernajo02_gamelog_batting_2016.csv
+7	54	31 (4)	May 9	MIA		MIL	W4-1	GS-8	3	3	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	.231	.286	.231	.516	9	1.12	-0.126	-2.09			P	fernajo02_gamelog_batting_2016.csv
+8	55	37 (5)	May 15	MIA	@	WSN	W5-1	GS-8	3	1	0	1	0	0	0	2	0	0	0	0	2	0	0	0	0	0	.286	.333	.286	.619	9	1.80	0.101	1.44			P	fernajo02_gamelog_batting_2016.csv
+9	56	42 (4)	May 21	MIA		WSN	W3-2	GS-7	3	2	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	.250	.294	.250	.544	9	.90	-0.059	-0.56			P	fernajo02_gamelog_batting_2016.csv
+10	57	52 (9)	May 31	MIA		PIT	W3-1	GS-8	3	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.211	.250	.211	.461	9	1.17	-0.090	-0.66			P	fernajo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	fernajo02_gamelog_batting_2016.csv
+11	58	57 (4)	Jun 5	MIA		NYM	W1-0	GS-8	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.190	.227	.190	.418	9	.75	-0.039	-0.37			P	fernajo02_gamelog_batting_2016.csv
+12	59	62 (4)	Jun 11	MIA	@	ARI	L3-5	GS-7	2	2	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.174	.208	.174	.382	9	.79	-0.040	-0.49			P	fernajo02_gamelog_batting_2016.csv
+13	60	71 (8)	Jun 21	MIA		ATL	L2-3	GS-7	2	2	0	1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	.200	.231	.200	.431	9	.93	0.078	0.63			P	fernajo02_gamelog_batting_2016.csv
+14	61	76 (4)	Jun 26	MIA		CHC	W6-1	GS-7	2	2	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	.222	.250	.259	.509	9	1.08	0.060	0.39			P	fernajo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	fernajo02_gamelog_batting_2016.csv
+15	62	80 (3)	Jul 1	MIA	@	ATL	W7-5	12-12	1	1	0	1	1	0	0	2	0	0	0	0	0	0	0	0	0	0	.250	.276	.321	.597	9	4.44	0.446	1.89	9.00	13.00	PH	fernajo02_gamelog_batting_2016.csv
+16	63	81	Jul 2	MIA	@	ATL	L1-9	GS-6	2	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	.241	.267	.310	.577	9	1.54	-0.071	-0.55			P	fernajo02_gamelog_batting_2016.csv
+17	64	86 (4)	Jul 8	MIA		CIN	W3-1	GS-7	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.226	.250	.290	.540	9	.70	-0.034	-0.37			P	fernajo02_gamelog_batting_2016.csv
+18	65	92 (5)	Jul 18	MIA	@	PHI	W3-2	GS-7	2	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	.219	.242	.281	.524	9	1.21	-0.042	-0.29			P	fernajo02_gamelog_batting_2016.csv
+19	66	97 (4)	Jul 23	MIA		NYM	W7-2	GS-7	3	2	1	2	0	0	0	1	0	0	0	0	1	0	0	0	0	0	.265	.286	.324	.609	9	.86	0.133	1.09			P	fernajo02_gamelog_batting_2016.csv
+20	67	102 (4)	Jul 28	MIA		STL	L4-5	GS-6	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.257	.278	.314	.592	9	.61	-0.015	-0.15			P	fernajo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	fernajo02_gamelog_batting_2016.csv
+21	68	107 (4)	Aug 2	MIA	@	CHC	L2-3	GS-7	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.243	.263	.297	.560	9	.60	-0.030	-0.26			P	fernajo02_gamelog_batting_2016.csv
+22	69	112 (4)	Aug 8	MIA		SFG	L7-8	GS-6	2	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.256	.275	.308	.583	9	.76	0.015	0.22			P	fernajo02_gamelog_batting_2016.csv
+23	70	121 (8)	Aug 18	MIA	@	CIN	L4-5	GS-5	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.250	.268	.300	.568	9	.58	-0.014	-0.16			P	fernajo02_gamelog_batting_2016.csv
+24	71	126 (4)	Aug 24	MIA		KCR	W3-0	GS-7	2	2	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.286	.302	.333	.636	9	.71	0.049	0.37			P	fernajo02_gamelog_batting_2016.csv
+25	72	131 (4)	Aug 29	MIA	@	NYM	L1-2	GS-7	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.273	.289	.318	.607	9	2.17	-0.112	-0.99			P	fernajo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	fernajo02_gamelog_batting_2016.csv
+26	73	141 (9)	Sep 9	MIA		LAD	W4-1	GS-8	3	2	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	.283	.298	.326	.624	9	.45	-0.002	-0.21			P	fernajo02_gamelog_batting_2016.csv
+27	74	146 (4)	Sep 14	MIA	@	ATL	W7-5	GS-8	3	3	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.265	.280	.306	.586	9	.67	-0.052	-0.54			P	fernajo02_gamelog_batting_2016.csv
+28	75	151 (4)	Sep 20	MIA		WSN	W1-0	GS-9	3	3	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	.250	.264	.288	.553	9	.75	-0.056	-0.47			P	fernajo02_gamelog_batting_2016.csv
+				MIA					61	52	3	13	2	0	0	6	1	0	13	0	8	0		1	0	0	.250	.264	.288	.553								fernajo02_gamelog_batting_2016.csv
+1	564	1	Apr 3	TOR	@	TBR	W5-3	CG	5	5	1	1	0	0	0	0	0	0	3	0	0	0	0	0	0	0	.200	.200	.200	.400	2	.90	0.004	-0.29	5.00	6.20	3B	donaljo02_gamelog_batting_2016.csv
+2	565	2	Apr 4	TOR	@	TBR	W5-3	CG	4	3	1	1	0	0	1	1	1	0	1	0	0	0	0	0	0	0	.250	.333	.625	.958	2	.44	0.056	1.12	16.00	21.70	3B	donaljo02_gamelog_batting_2016.csv
+3	566	3	Apr 5	TOR	@	TBR	L2-3	CG	5	5	0	1	0	0	0	0	0	0	3	0	0	0	0	0	0	0	.231	.286	.462	.747	2	1.69	0.003	-0.69	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+4	567	4	Apr 6	TOR	@	TBR	L3-5	GS-7	4	3	1	1	0	0	1	3	1	0	0	0	0	0	0	0	0	0	.250	.333	.625	.958	2	.95	0.239	2.36	20.00	28.70	3B	donaljo02_gamelog_batting_2016.csv
+5	568	5	Apr 8	TOR		BOS	L7-8	CG	5	5	1	1	0	0	1	4	0	0	1	0	0	0	0	0	0	0	.238	.304	.667	.971	2	1.48	-0.057	0.72	20.00	29.20	DH	donaljo02_gamelog_batting_2016.csv
+6	569	6	Apr 9	TOR		BOS	L4-8	CG	4	4	2	2	1	0	0	0	0	0	1	0	0	0	0	0	0	0	.280	.333	.680	1.013	2	.71	0.067	0.56	12.00	15.40	DH	donaljo02_gamelog_batting_2016.csv
+7	570	7	Apr 10	TOR		BOS	W3-0	CG	4	4	2	2	0	0	1	1	0	0	2	0	0	0	0	0	0	0	.310	.355	.759	1.113	2	.64	0.064	1.28	19.00	24.90	DH	donaljo02_gamelog_batting_2016.csv
+8	571	8	Apr 12	TOR		NYY	L2-3	CG	4	3	1	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	.313	.371	.719	1.090	2	1.30	0.125	0.80	12.00	15.20	3B	donaljo02_gamelog_batting_2016.csv
+9	572	9	Apr 13	TOR		NYY	W7-2	CG	4	4	1	1	1	0	0	0	0	0	2	0	0	0	0	1	0	0	.306	.359	.694	1.053	2	.77	-0.012	-0.25	7.00	9.20	3B	donaljo02_gamelog_batting_2016.csv
+10	573	10	Apr 14	TOR		NYY	W4-2	CG	4	4	1	2	1	0	1	3	0	0	1	0	0	0	0	0	0	0	.325	.372	.775	1.147	2	1.39	0.311	2.10	23.00	31.70	3B	donaljo02_gamelog_batting_2016.csv
+11	574	11	Apr 15	TOR	@	BOS	L3-5	CG	4	4	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.295	.340	.705	1.045	2	.97	-0.104	-0.94	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+12	575	12	Apr 16	TOR	@	BOS	L2-4	CG	4	4	1	2	0	1	0	0	0	0	1	0	0	0	0	0	0	0	.313	.353	.729	1.082	2	.83	0.078	0.71	13.00	15.20	3B	donaljo02_gamelog_batting_2016.csv
+13	576	13	Apr 17	TOR	@	BOS	W5-3	CG	5	5	1	2	1	0	0	1	0	0	0	0	0	0	0	0	0	0	.321	.357	.717	1.074	2	.72	0.089	1.09	12.00	15.70	3B	donaljo02_gamelog_batting_2016.csv
+14	577	14	Apr 18	TOR	@	BOS	W4-3	CG	5	2	1	0	0	0	0	0	2	0	1	1	0	0	0	0	0	0	.309	.377	.691	1.068	2	1.36	0.037	0.28	8.00	12.20	3B	donaljo02_gamelog_batting_2016.csv
+15	578	15	Apr 19	TOR	@	BAL	W4-3	CG	5	3	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	.293	.379	.655	1.034	2	.77	-0.046	-0.46	4.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+16	579	16	Apr 20	TOR	@	BAL	L3-4	CG(10)	5	5	1	1	0	0	1	1	0	0	2	0	0	0	0	0	0	0	.286	.366	.667	1.033	2	1.63	-0.032	-0.11	14.00	18.70	3B	donaljo02_gamelog_batting_2016.csv
+17	580	17	Apr 21	TOR	@	BAL	L2-3	CG	4	4	1	1	1	0	0	1	0	0	2	0	0	0	0	0	0	0	.284	.360	.657	1.017	2	1.28	0.014	0.44	9.00	12.70	3B	donaljo02_gamelog_batting_2016.csv
+18	581	18	Apr 22	TOR		OAK	L5-8	CG	5	4	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.282	.363	.634	.996	2	.86	0.033	0.22	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+19	582	19	Apr 23	TOR		OAK	W9-3	CG	5	4	2	3	0	0	1	4	0	0	0	1	0	0	0	0	0	0	.307	.388	.680	1.068	2	.72	0.147	2.59	30.00	41.40	3B	donaljo02_gamelog_batting_2016.csv
+20	583	20	Apr 24	TOR		OAK	W6-3	CG	5	4	2	1	1	0	0	0	1	0	1	0	0	0	0	0	0	0	.304	.389	.671	1.060	2	.61	0.036	-0.13	11.00	15.40	3B	donaljo02_gamelog_batting_2016.csv
+21	584	21	Apr 25	TOR		CHW	L5-7	CG	5	5	1	1	1	0	0	0	0	0	2	0	0	0	0	0	0	0	.298	.379	.655	1.034	2	.83	-0.048	-0.86	7.00	9.20	DH	donaljo02_gamelog_batting_2016.csv
+22	585	22	Apr 26	TOR		CHW	L1-10	CG	4	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.284	.364	.625	.989	2	.50	-0.054	-0.85	0.00	0.00	DH	donaljo02_gamelog_batting_2016.csv
+23	586	23	Apr 27	TOR		CHW	L0-4	CG	4	3	0	2	1	0	0	0	1	0	0	0	0	0	0	0	0	0	.297	.379	.637	1.016	2	.92	0.088	0.78	10.00	12.00	3B	donaljo02_gamelog_batting_2016.csv
+24	587	24	Apr 29	TOR	@	TBR	W6-1	CG	4	3	2	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	.298	.383	.660	1.043	2	.43	0.116	1.00	18.00	24.90	3B	donaljo02_gamelog_batting_2016.csv
+25	588	25	Apr 30	TOR	@	TBR	L3-4	CG	4	2	1	0	0	0	0	0	2	0	1	0	0	0	0	0	0	0	.292	.387	.646	1.033	2	.90	-0.005	-0.02	6.00	9.20	3B	donaljo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	donaljo02_gamelog_batting_2016.csv
+26	589	26	May 1	TOR	@	TBR	W5-1	CG	4	3	2	1	0	0	1	1	1	0	0	0	0	0	0	1	0	0	.293	.391	.667	1.058	2	1.88	0.163	0.86	18.00	24.90	3B	donaljo02_gamelog_batting_2016.csv
+27	590	27	May 2	TOR		TEX	L1-2	CG	4	4	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.291	.387	.650	1.037	2	1.79	0.056	-0.10	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+28	591	28	May 3	TOR		TEX	W3-1	CG(10)	5	3	0	1	0	0	0	0	2	0	1	0	0	0	0	0	0	0	.292	.395	.642	1.037	2	2.61	-0.065	0.01	7.00	9.00	3B	donaljo02_gamelog_batting_2016.csv
+29	592	29	May 4	TOR		TEX	W4-3	CG	4	4	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.282	.383	.618	1.001	2	1.03	-0.115	-0.90	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+30	593	30	May 5	TOR		TEX	W12-2	CG	5	3	3	1	0	0	0	0	2	1	0	0	0	0	0	0	0	0	.283	.391	.611	1.002	2	.41	0.049	0.60	13.00	18.60	3B	donaljo02_gamelog_batting_2016.csv
+31	594	31	May 6	TOR		LAD	W5-2	CG	4	2	1	0	0	0	0	0	2	0	0	0	0	0	0	0	1	0	.278	.394	.600	.994	2	1.56	-0.054	-0.21	11.00	15.20	3B	donaljo02_gamelog_batting_2016.csv
+32	595	32	May 7	TOR		LAD	L2-6	CG	4	4	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.277	.390	.588	.978	2	.77	-0.041	-0.34	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+33	596	33	May 8	TOR		LAD	L2-4	CG	4	4	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.268	.379	.569	.948	2	1.29	-0.130	-0.82	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+34	597	34	May 9	TOR	@	SFG	W3-1	CG	5	4	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	.268	.380	.559	.939	2	.75	0.035	0.32	7.00	9.20	3B	donaljo02_gamelog_batting_2016.csv
+35	598	35	May 10	TOR	@	SFG	W4-0	CG	4	4	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.267	.377	.550	.926	2	.60	-0.021	-0.28	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+36	599	36	May 11	TOR	@	SFG	L4-5	CG(13)	7	6	2	4	1	0	0	0	1	0	0	0	0	0	0	0	1	0	.285	.391	.562	.953	2	1.59	0.108	1.16	25.00	30.40	3B	donaljo02_gamelog_batting_2016.csv
+37	600	37	May 13	TOR	@	TEX	W5-0	CG	5	5	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.275	.380	.542	.922	2	.72	-0.090	-1.11	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+38	601	38	May 14	TOR	@	TEX	L5-6	CG(10)	5	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.265	.368	.524	.892	2	1.14	-0.149	-1.23	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+39	602	39	May 15	TOR	@	TEX	L6-7	GS-8	5	4	1	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.258	.364	.510	.874	2	1.41	-0.097	-1.26	4.00	6.20	3B	donaljo02_gamelog_batting_2016.csv
+40	603	40	May 16	TOR		TBR	L2-13	GS-6	3	3	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	.260	.363	.513	.876	2	.25	-0.016	0.55	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+41	604	41	May 17	TOR		TBR	L2-12	GS-9	4	4	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.253	.355	.500	.855	2	.78	-0.079	-1.16	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+42	605	43 (1)	May 19	TOR	@	MIN	W3-2	CG(11)	5	4	1	0	0	0	0	0	1	0	2	0	0	0	0	1	0	0	.247	.351	.488	.839	2	1.50	-0.177	-0.96	4.00	6.20	3B	donaljo02_gamelog_batting_2016.csv
+43	606	44	May 20	TOR	@	MIN	W9-3	CG	5	5	1	2	1	0	1	2	0	0	1	0	0	0	0	0	0	0	.251	.352	.509	.861	2	.46	0.174	1.52	21.00	28.20	3B	donaljo02_gamelog_batting_2016.csv
+44	607	45	May 21	TOR	@	MIN	L3-5	GS-1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.250	.351	.506	.856	2	.62	-0.015	-0.16	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+45	608	46	May 22	TOR	@	MIN	W3-1	CG	4	4	1	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	.250	.348	.517	.866	2	.75	0.034	0.15	14.00	18.70	3B	donaljo02_gamelog_batting_2016.csv
+46	609	47	May 24	TOR	@	NYY	L0-6	CG	4	3	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	.246	.343	.509	.852	2	1.18	-0.072	-0.82	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+47	610	48	May 25	TOR	@	NYY	W8-4	CG	5	4	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.246	.345	.503	.847	2	.69	-0.041	-0.24	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+48	611	49	May 26	TOR	@	NYY	W3-1	CG	4	3	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.242	.343	.495	.837	2	1.23	-0.049	-0.51	2.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+49	612	50	May 27	TOR		BOS	W7-5	CG	5	5	2	4	1	0	2	5	0	0	1	0	0	0	0	0	0	0	.257	.353	.540	.894	2	1.61	0.583	4.60	42.00	56.90	3B	donaljo02_gamelog_batting_2016.csv
+50	613	51	May 28	TOR		BOS	W10-9	CG	5	3	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	.258	.359	.537	.896	2	1.06	0.011	0.50	7.00	9.00	3B	donaljo02_gamelog_batting_2016.csv
+51	614	52	May 29	TOR		BOS	L3-5	CG(11)	6	5	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.256	.358	.528	.887	2	1.07	-0.079	-0.38	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+52	615	53	May 30	TOR		NYY	W4-2	CG	4	4	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.256	.357	.523	.879	2	.65	0.012	-0.37	5.00	6.20	3B	donaljo02_gamelog_batting_2016.csv
+53	616	54	May 31	TOR		NYY	W4-1	CG	4	4	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.256	.355	.517	.872	2	.64	0.013	0.00	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	donaljo02_gamelog_batting_2016.csv
+54	617	55	Jun 1	TOR		NYY	W7-0	CG	4	3	1	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	.257	.357	.515	.872	2	1.27	0.029	0.31	9.00	12.70	3B	donaljo02_gamelog_batting_2016.csv
+55	618	56	Jun 3	TOR	@	BOS	W5-2	CG	5	3	1	0	0	0	0	0	2	0	1	0	0	0	0	0	0	0	.254	.358	.507	.865	2	.70	-0.012	-0.26	6.00	9.20	3B	donaljo02_gamelog_batting_2016.csv
+56	619	58 (1)	Jun 5	TOR	@	BOS	W5-4	CG	4	3	1	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.250	.356	.500	.856	2	.35	-0.018	-0.50	4.00	6.20	DH	donaljo02_gamelog_batting_2016.csv
+57	620	59	Jun 6	TOR	@	DET	L0-11	GS-7	3	2	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.248	.356	.495	.851	2	.75	-0.024	-0.39	2.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+58	621	60	Jun 7	TOR	@	DET	L2-3	CG(10)	5	2	0	0	0	0	0	0	3	1	0	0	0	0	0	0	0	0	.245	.361	.491	.852	2	.73	0.003	0.32	6.00	9.00	3B	donaljo02_gamelog_batting_2016.csv
+59	622	61	Jun 8	TOR	@	DET	W7-2	CG	4	4	3	3	0	1	1	3	0	0	0	0	0	0	0	0	0	0	.255	.367	.518	.885	2	.65	0.208	2.27	33.00	44.10	3B	donaljo02_gamelog_batting_2016.csv
+60	623	62	Jun 9	TOR		BAL	L5-6	CG	5	4	1	1	0	1	0	1	1	0	1	0	0	0	0	0	0	0	.254	.367	.522	.890	2	1.37	0.030	0.63	14.00	18.70	3B	donaljo02_gamelog_batting_2016.csv
+61	624	63	Jun 10	TOR		BAL	W4-3	CG(10)	5	5	0	1	0	0	0	1	0	0	2	0	0	0	0	0	1	0	.253	.364	.515	.880	2	1.25	-0.080	-0.25	10.00	12.50	3B	donaljo02_gamelog_batting_2016.csv
+62	625	64	Jun 11	TOR		BAL	W11-6	CG	5	4	1	1	0	0	0	1	0	0	1	0	0	1	0	0	0	0	.253	.361	.511	.872	2	1.46	0.008	-0.32	7.00	9.70	3B	donaljo02_gamelog_batting_2016.csv
+63	626	65	Jun 12	TOR		BAL	W10-9	CG	5	3	1	1	1	0	0	1	2	0	1	0	0	0	0	0	0	0	.254	.366	.513	.878	2	.50	0.114	1.26	13.00	18.70	DH	donaljo02_gamelog_batting_2016.csv
+64	627	66	Jun 13	TOR		PHI	L0-7	CG	4	3	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.255	.367	.510	.878	2	.72	0.014	-0.07	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+65	628	67	Jun 14	TOR		PHI	W11-3	CG	5	4	3	3	2	0	1	5	1	0	0	0	0	0	0	0	0	0	.263	.375	.535	.910	2	.38	0.177	4.80	38.00	54.10	3B	donaljo02_gamelog_batting_2016.csv
+66	629	68	Jun 15	TOR	@	PHI	W7-2	CG	5	4	2	2	0	0	1	1	1	0	0	0	0	0	0	0	1	0	.267	.379	.547	.925	3	.81	0.140	1.67	26.00	33.90	3B	donaljo02_gamelog_batting_2016.csv
+67	630	69	Jun 16	TOR	@	PHI	W13-2	GS-8	5	3	3	3	1	0	0	0	2	0	0	0	0	0	0	0	0	0	.276	.389	.556	.945	2	.31	0.062	2.48	21.00	27.60	3B	donaljo02_gamelog_batting_2016.csv
+68	631	70	Jun 17	TOR	@	BAL	W13-3	GS-8	5	4	3	2	0	1	1	3	1	0	0	0	0	0	0	0	0	0	.280	.393	.575	.968	2	.37	0.187	2.42	32.00	44.10	3B	donaljo02_gamelog_batting_2016.csv
+69	632	71	Jun 18	TOR	@	BAL	L2-4	CG	5	5	0	1	1	0	0	0	0	0	1	0	0	0	0	1	0	0	.278	.390	.571	.961	2	2.21	-0.350	-1.97	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+70	633	72	Jun 19	TOR	@	BAL	L6-11	CG	4	4	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.274	.385	.563	.947	2	.98	-0.108	-1.04	0.00	0.00	DH	donaljo02_gamelog_batting_2016.csv
+71	634	73	Jun 21	TOR		ARI	L2-4	CG	4	3	0	2	0	0	0	0	1	0	0	0	0	0	0	1	0	0	.278	.389	.564	.953	3	1.33	-0.131	-0.68	8.00	9.00	3B	donaljo02_gamelog_batting_2016.csv
+72	635	74	Jun 22	TOR		ARI	W5-2	GS-9	4	3	1	1	1	0	0	0	0	0	2	1	0	0	0	0	0	0	.279	.391	.565	.956	2	.60	0.020	0.11	9.00	12.20	3B	donaljo02_gamelog_batting_2016.csv
+73	636	75	Jun 24	TOR	@	CHW	L2-3	CG	5	4	0	2	0	0	0	0	1	0	0	0	0	0	0	0	0	0	.282	.394	.564	.958	2	1.92	0.184	0.81	8.00	9.00	3B	donaljo02_gamelog_batting_2016.csv
+74	637	76	Jun 25	TOR	@	CHW	W10-8	CG	5	4	1	2	0	0	0	1	1	0	0	0	0	0	0	0	0	0	.285	.397	.563	.960	3	.92	0.153	1.48	12.00	15.70	DH	donaljo02_gamelog_batting_2016.csv
+75	638	77	Jun 26	TOR	@	CHW	L2-5	CG	4	4	0	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	.288	.398	.562	.960	2	.93	-0.095	-0.76	6.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+76	639	78	Jun 27	TOR	@	COL	L5-9	CG	4	4	1	1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	.288	.396	.558	.954	3	.75	0.080	0.43	7.00	9.70	3B	donaljo02_gamelog_batting_2016.csv
+77	640	79	Jun 28	TOR	@	COL	W14-9	CG	6	5	1	2	0	1	0	3	1	0	0	0	0	0	0	0	0	0	.290	.398	.562	.960	3	1.09	0.201	2.06	21.00	28.70	3B	donaljo02_gamelog_batting_2016.csv
+78	641	80	Jun 29	TOR	@	COL	W5-3	CG	5	4	1	2	0	0	1	1	1	0	0	0	0	0	0	0	0	0	.293	.401	.571	.973	3	.53	0.162	1.68	19.00	24.70	3B	donaljo02_gamelog_batting_2016.csv
+79	642	81	Jun 30	TOR		CLE	L1-4	CG	4	4	1	1	0	0	1	1	0	0	2	0	0	0	0	1	0	0	.292	.399	.577	.977	3	1.06	-0.009	-0.12	14.00	18.70	3B	donaljo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	donaljo02_gamelog_batting_2016.csv
+80	643	82	Jul 1	TOR		CLE	L1-2	CG(19)	9	6	0	0	0	0	0	0	2	1	1	1	0	0	0	0	0	0	.286	.398	.566	.964	2	2.21	-0.172	-0.64	6.00	9.00	3B	donaljo02_gamelog_batting_2016.csv
+81	644	83	Jul 2	TOR		CLE	W9-6	CG	5	4	3	2	0	0	1	2	1	0	1	0	0	0	0	0	1	0	.289	.401	.575	.975	3	1.91	0.384	1.54	30.00	40.60	DH	donaljo02_gamelog_batting_2016.csv
+82	645	84	Jul 3	TOR		CLE	W17-1	CG	6	4	4	4	1	0	0	1	2	1	0	0	0	0	0	0	0	0	.298	.410	.583	.994	2	.36	0.072	2.96	28.00	37.30	3B	donaljo02_gamelog_batting_2016.csv
+83	646	85	Jul 4	TOR		KCR	W6-2	CG	4	3	0	1	0	0	0	2	1	0	0	0	0	0	0	0	0	0	.298	.411	.581	.992	2	.62	0.045	1.53	9.00	13.00	DH	donaljo02_gamelog_batting_2016.csv
+84	647	86	Jul 5	TOR		KCR	W8-3	CG	4	4	4	3	0	0	2	2	0	0	0	0	0	0	0	0	0	0	.304	.415	.602	1.017	2	.38	0.169	2.02	35.00	46.80	3B	donaljo02_gamelog_batting_2016.csv
+85	648	87	Jul 6	TOR		KCR	W4-2	CG	4	3	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.301	.413	.596	1.009	2	.77	-0.040	-0.25	2.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+86	649	88	Jul 7	TOR		DET	W5-4	CG	5	3	2	2	1	0	0	0	1	0	0	1	0	0	1	0	0	0	.305	.418	.600	1.018	2	1.97	0.406	2.52	16.00	21.40	3B	donaljo02_gamelog_batting_2016.csv
+87	650	89	Jul 8	TOR		DET	W6-0	CG	5	5	0	1	0	0	0	0	0	0	1	0	0	0	0	1	0	0	.303	.415	.594	1.009	2	.79	-0.072	-1.39	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+88	651	90	Jul 9	TOR		DET	L2-3	CG	4	2	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	.301	.416	.590	1.006	2	1.48	-0.041	-0.01	4.00	6.00	DH	donaljo02_gamelog_batting_2016.csv
+89	652	91	Jul 10	TOR		DET	W6-1	CG	5	4	1	2	0	0	1	3	1	1	2	0	0	0	0	0	0	0	.304	.418	.598	1.017	2	.50	0.164	2.94	23.00	31.70	DH	donaljo02_gamelog_batting_2016.csv
+90	653	92	Jul 15	TOR	@	OAK	L7-8	CG	5	4	1	1	0	0	0	1	1	0	1	0	0	0	0	1	0	0	.303	.418	.594	1.012	2	1.47	-0.087	0.29	9.00	12.70	3B	donaljo02_gamelog_batting_2016.csv
+91	654	93	Jul 16	TOR	@	OAK	L4-5	CG	4	3	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	.300	.416	.589	1.005	2	1.23	-0.084	-0.74	2.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+92	655	94	Jul 17	TOR	@	OAK	W5-3	CG	5	5	1	2	1	0	0	2	0	0	0	0	0	0	0	0	0	0	.302	.416	.589	1.005	2	1.76	0.377	1.47	14.00	19.20	3B	donaljo02_gamelog_batting_2016.csv
+93	656	95	Jul 19	TOR	@	ARI	W5-1	CG	5	5	1	3	0	0	0	1	0	0	0	0	0	0	0	0	0	0	.306	.418	.589	1.008	2	.65	0.066	0.91	13.00	15.70	3B	donaljo02_gamelog_batting_2016.csv
+94	657	96	Jul 20	TOR	@	ARI	W10-4	CG	5	4	2	2	1	0	1	3	1	0	0	0	0	0	0	0	0	0	.308	.421	.599	1.020	2	.63	0.153	1.68	27.00	37.90	3B	donaljo02_gamelog_batting_2016.csv
+95	658	97	Jul 22	TOR		SEA	L1-2	CG	4	4	0	1	1	0	0	0	0	0	3	0	0	0	0	0	0	0	.307	.419	.598	1.017	2	1.48	-0.048	-0.20	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+96	659	98	Jul 23	TOR		SEA	L5-14	CG	5	3	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	.305	.419	.593	1.012	2	.42	0.009	-0.48	4.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+97	660	99	Jul 24	TOR		SEA	W2-0	CG	4	4	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	.302	.415	.587	1.002	2	.67	-0.071	-1.21	0.00	0.00	DH	donaljo02_gamelog_batting_2016.csv
+98	661	100	Jul 25	TOR		SDP	W4-2	CG	4	4	0	1	0	0	0	1	0	0	1	0	0	0	0	1	0	0	.301	.413	.583	.997	2	.67	0.034	0.06	5.00	6.50	3B	donaljo02_gamelog_batting_2016.csv
+99	662	101	Jul 26	TOR		SDP	W7-6	CG(12)	6	6	1	2	1	0	1	3	0	0	0	0	0	0	0	0	0	0	.302	.412	.590	1.002	2	2.95	0.122	1.01	23.00	31.70	3B	donaljo02_gamelog_batting_2016.csv
+100	663	102	Jul 27	TOR		SDP	L4-8	CG	4	4	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	.301	.411	.589	1.000	2	.42	0.012	0.03	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+101	664	103	Jul 29	TOR		BAL	W6-5	CG	4	4	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.298	.407	.583	.990	2	.72	-0.077	-0.90	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+102	665	104	Jul 30	TOR		BAL	W9-1	GS-8	5	3	1	2	0	0	0	0	2	0	1	0	0	0	0	0	0	0	.301	.412	.584	.995	2	.66	0.112	1.14	12.00	15.20	3B	donaljo02_gamelog_batting_2016.csv
+103	666	105	Jul 31	TOR		BAL	L2-6	CG(12)	5	4	0	0	0	0	0	0	1	0	1	0	0	0	0	1	0	0	.298	.409	.578	.987	2	1.22	-0.106	-1.34	2.00	3.00	DH 3B	donaljo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	donaljo02_gamelog_batting_2016.csv
+104	667	106	Aug 1	TOR	@	HOU	L1-2	12-GF(14)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.297	.409	.576	.985	9	1.29	-0.033	-0.10	0.00	0.00	PH 3B	donaljo02_gamelog_batting_2016.csv
+105	668	107	Aug 2	TOR	@	HOU	W2-1	CG	4	4	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.296	.407	.573	.980	2	.64	-0.054	-0.60	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+106	669	108	Aug 3	TOR	@	HOU	W3-1	CG	4	4	2	2	0	0	2	2	0	0	0	0	0	0	0	0	0	0	.299	.408	.587	.995	3	.79	0.174	1.41	28.00	37.40	3B	donaljo02_gamelog_batting_2016.csv
+107	670	109	Aug 4	TOR	@	HOU	W4-1	CG	4	4	0	1	0	0	0	1	0	0	2	0	0	0	0	0	0	0	.298	.407	.584	.990	3	.74	0.006	-0.08	5.00	6.50	3B	donaljo02_gamelog_batting_2016.csv
+108	671	110	Aug 5	TOR	@	KCR	W4-3	CG	5	2	1	1	0	0	0	0	2	0	0	1	0	0	0	0	0	0	.299	.411	.583	.994	3	1.01	0.145	1.32	11.00	15.20	DH	donaljo02_gamelog_batting_2016.csv
+109	672	111	Aug 6	TOR	@	KCR	L2-4	CG	4	3	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	.297	.409	.579	.988	3	.96	-0.031	-0.10	2.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+110	673	112	Aug 7	TOR	@	KCR	L1-7	CG	4	4	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.296	.408	.576	.984	3	.76	-0.076	-0.97	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+111	674	113	Aug 8	TOR		TBR	W7-5	CG	5	5	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.295	.406	.571	.977	3	1.28	-0.033	-0.55	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+112	675	114	Aug 9	TOR		TBR	L2-9	CG	4	3	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.296	.407	.570	.976	3	.89	0.037	0.14	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+113	676	115	Aug 10	TOR		TBR	W7-0	CG	5	5	2	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.294	.405	.565	.970	2	.41	0.039	-0.26	7.00	9.40	3B	donaljo02_gamelog_batting_2016.csv
+114	677	116	Aug 12	TOR		HOU	L3-5	CG	4	4	0	1	1	0	0	0	0	0	0	0	0	0	0	1	0	0	.294	.404	.565	.968	2	1.02	-0.043	-0.41	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+115	678	117	Aug 13	TOR		HOU	W4-2	CG	4	4	1	1	0	0	1	1	0	0	1	0	0	0	0	0	0	0	.294	.402	.569	.971	2	.81	0.028	0.34	14.00	18.70	3B	donaljo02_gamelog_batting_2016.csv
+116	679	118	Aug 14	TOR		HOU	W9-2	CG	5	3	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	.292	.401	.565	.966	2	.60	-0.059	0.15	4.00	6.50	3B	donaljo02_gamelog_batting_2016.csv
+117	680	119	Aug 15	TOR	@	NYY	L0-1	CG	4	4	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.291	.400	.562	.962	2	1.49	0.148	0.22	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+118	681	120	Aug 16	TOR	@	NYY	W12-6	CG	5	3	2	1	0	0	0	1	2	0	0	0	0	0	0	0	0	0	.291	.402	.561	.962	2	.86	0.079	1.98	13.00	18.90	3B	donaljo02_gamelog_batting_2016.csv
+119	682	121	Aug 17	TOR	@	NYY	W7-4	GS-9	4	4	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.289	.399	.556	.954	2	.75	0.016	-0.04	2.00	3.20	DH	donaljo02_gamelog_batting_2016.csv
+120	683	124 (2)	Aug 21	TOR	@	CLE	L2-3	CG	5	3	0	1	0	0	0	1	2	0	1	0	0	0	0	0	0	0	.289	.401	.554	.955	2	1.19	0.130	0.94	9.00	12.50	3B	donaljo02_gamelog_batting_2016.csv
+121	684	125	Aug 23	TOR		LAA	W7-2	CG	5	3	1	1	0	0	0	0	2	0	0	0	0	0	0	0	0	1	.289	.403	.553	.955	2	.72	0.031	-0.17	9.00	12.20	3B	donaljo02_gamelog_batting_2016.csv
+122	685	126	Aug 24	TOR		LAA	L2-8	CG	5	5	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.289	.401	.549	.950	2	.27	-0.006	-0.87	5.00	6.20	3B	donaljo02_gamelog_batting_2016.csv
+123	686	127	Aug 25	TOR		LAA	L3-6	CG	5	5	1	1	0	0	1	1	0	0	1	0	0	0	0	0	0	0	.288	.399	.552	.950	2	.74	0.026	-0.18	14.00	18.70	3B	donaljo02_gamelog_batting_2016.csv
+124	687	128	Aug 26	TOR		MIN	W15-8	CG	5	4	2	2	0	0	1	3	1	0	0	0	0	0	0	0	0	0	.289	.401	.557	.958	2	.70	0.095	2.25	25.00	34.90	3B	donaljo02_gamelog_batting_2016.csv
+125	688	129	Aug 27	TOR		MIN	W8-7	CG	4	2	1	1	0	0	0	2	2	0	0	0	0	0	0	0	0	0	.290	.403	.557	.960	2	1.07	0.154	2.01	13.00	19.20	3B	donaljo02_gamelog_batting_2016.csv
+126	689	130	Aug 28	TOR		MIN	W9-6	CG	5	4	3	3	0	0	3	4	1	0	0	0	0	0	0	0	0	0	.294	.407	.578	.984	2	1.28	0.510	3.81	46.00	62.60	3B	donaljo02_gamelog_batting_2016.csv
+127	690	131	Aug 29	TOR	@	BAL	W5-1	CG	4	3	1	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	.294	.407	.582	.990	2	.64	0.102	0.85	16.00	21.70	3B	donaljo02_gamelog_batting_2016.csv
+128	691	132	Aug 30	TOR	@	BAL	L3-5	CG	4	4	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.294	.406	.580	.986	2	.98	-0.045	-0.59	3.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+129	692	133	Aug 31	TOR	@	BAL	W5-3	CG	4	4	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.296	.407	.579	.986	2	.55	0.014	0.65	6.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+Rk	Gcar	Gtm	Date	Tm		Opp	Rslt	Inngs	PA	AB	R	H	2B	3B	HR	RBI	BB	IBB	SO	HBP	SH	SF	ROE	GDP	SB	CS	BA	OBP	SLG	OPS	BOP	aLI	WPA	RE24	DFS(DK)	DFS(FD)	Pos	donaljo02_gamelog_batting_2016.csv
+130	693	134	Sep 2	TOR	@	TBR	L3-8	CG	4	4	2	2	1	0	0	0	0	0	1	0	0	0	0	0	0	0	.297	.408	.580	.988	2	.65	0.000	0.26	12.00	15.40	3B	donaljo02_gamelog_batting_2016.csv
+131	694	135	Sep 3	TOR	@	TBR	L5-7	CG	5	4	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.297	.407	.578	.985	2	.75	0.019	-0.13	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+132	695	136	Sep 4	TOR	@	TBR	W5-3	CG	5	3	0	0	0	0	0	0	2	0	2	0	0	0	0	0	0	0	.295	.407	.574	.982	2	1.25	0.003	-0.14	4.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+133	696	137	Sep 5	TOR	@	NYY	L3-5	CG	4	2	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	.294	.408	.572	.980	3	.98	0.007	-0.07	4.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+134	697	138	Sep 6	TOR	@	NYY	L6-7	CG	5	4	1	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	.292	.406	.567	.974	2	1.17	-0.009	-0.29	4.00	6.20	3B	donaljo02_gamelog_batting_2016.csv
+135	698	139	Sep 7	TOR	@	NYY	L0-2	CG	4	3	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	.290	.405	.564	.969	2	1.32	-0.111	-1.06	2.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+136	699	140	Sep 9	TOR		BOS	L3-13	GS-9	4	4	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.288	.403	.560	.962	2	.96	-0.107	-1.24	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+137	700	141	Sep 10	TOR		BOS	W3-2	CG	4	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	.285	.400	.555	.955	2	1.05	-0.143	-1.92	2.00	3.20	3B	donaljo02_gamelog_batting_2016.csv
+138	701	142	Sep 11	TOR		BOS	L8-11	CG	5	3	2	0	0	0	0	0	2	0	0	0	0	0	1	1	0	0	.284	.400	.552	.952	2	.77	-0.014	-0.19	8.00	12.40	3B	donaljo02_gamelog_batting_2016.csv
+139	702	146 (3)	Sep 15	TOR	@	LAA	W7-2	CG	5	3	2	3	2	0	0	0	2	0	0	0	0	0	0	0	0	0	.288	.405	.559	.963	2	.54	0.142	2.00	21.00	27.40	DH	donaljo02_gamelog_batting_2016.csv
+140	703	147	Sep 16	TOR	@	LAA	W5-0	CG	5	2	0	1	0	0	0	1	2	0	1	0	0	1	0	0	0	0	.289	.406	.558	.965	2	.78	0.026	0.20	9.00	12.50	DH	donaljo02_gamelog_batting_2016.csv
+141	704	148	Sep 17	TOR	@	LAA	L1-6	CG	5	4	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	.287	.405	.554	.959	2	1.12	-0.065	-0.80	2.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+142	705	149	Sep 18	TOR	@	LAA	L0-4	CG	4	3	0	0	0	0	0	0	1	0	2	0	0	0	0	1	0	0	.285	.404	.551	.955	2	1.46	-0.136	-1.49	2.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+143	706	150	Sep 19	TOR	@	SEA	W3-2	GS-7	4	4	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	.283	.401	.547	.948	2	.75	-0.078	-1.09	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+144	707	151	Sep 20	TOR	@	SEA	W10-2	GS-8	5	4	2	1	0	0	1	1	1	0	1	0	0	0	0	0	0	0	.283	.401	.550	.951	2	.61	-0.039	0.57	18.00	24.90	3B	donaljo02_gamelog_batting_2016.csv
+145	708	152	Sep 21	TOR	@	SEA	L1-2	CG(12)	5	5	0	2	1	0	0	0	0	0	2	0	0	0	0	0	0	0	.284	.401	.551	.952	2	1.43	0.061	0.46	8.00	9.00	3B	donaljo02_gamelog_batting_2016.csv
+146	709	153	Sep 23	TOR		NYY	W9-0	GS-9	5	4	2	1	0	0	1	2	1	0	0	0	0	0	1	0	0	0	.283	.401	.554	.955	2	.46	0.011	1.12	20.00	28.40	3B	donaljo02_gamelog_batting_2016.csv
+147	710	154	Sep 24	TOR		NYY	W3-0	CG	4	4	1	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	.285	.402	.554	.955	2	1.05	0.032	0.13	8.00	9.20	3B	donaljo02_gamelog_batting_2016.csv
+148	711	155	Sep 25	TOR		NYY	W4-3	CG	5	3	1	1	1	0	0	0	2	1	1	0	0	0	0	1	1	0	.285	.403	.554	.957	2	1.82	0.078	0.31	16.00	21.20	3B	donaljo02_gamelog_batting_2016.csv
+149	712	156	Sep 26	TOR		NYY	L5-7	CG	5	3	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	.284	.403	.551	.954	2	1.19	-0.078	-0.86	6.00	9.20	3B	donaljo02_gamelog_batting_2016.csv
+150	713	157	Sep 27	TOR		BAL	W5-1	CG	4	2	1	2	0	0	1	2	2	0	0	0	0	0	0	0	0	0	.286	.407	.558	.965	2	.61	0.173	2.24	23.00	31.20	3B	donaljo02_gamelog_batting_2016.csv
+151	714	158	Sep 28	TOR		BAL	L2-3	CG	4	3	0	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	.286	.407	.559	.966	2	.80	-0.002	0.14	7.00	9.00	3B	donaljo02_gamelog_batting_2016.csv
+152	715	159	Sep 29	TOR		BAL	L0-4	CG	4	3	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	.285	.406	.556	.962	2	1.02	-0.044	-0.36	2.00	3.00	3B	donaljo02_gamelog_batting_2016.csv
+153	716	160	Sep 30	TOR	@	BOS	L3-5	CG	5	4	0	2	0	0	0	1	0	0	0	0	0	1	0	0	0	0	.286	.406	.555	.962	2	1.66	-0.094	-0.56	8.00	9.50	3B	donaljo02_gamelog_batting_2016.csv
+154	717	161	Oct 1	TOR	@	BOS	W4-3	CG	4	4	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	.284	.404	.551	.956	2	.82	-0.084	-0.79	0.00	0.00	3B	donaljo02_gamelog_batting_2016.csv
+155	718	162	Oct 2	TOR	@	BOS	W2-1	CG	5	4	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	.284	.404	.549	.953	2	.92	0.033	0.06	5.00	6.00	3B	donaljo02_gamelog_batting_2016.csv
+				TOR					700	577	122	164	32	5	37	99	109	6	119	9	2	3		16	7	1	.284	.404	.549	.953								donaljo02_gamelog_batting_2016.csv

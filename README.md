@@ -168,6 +168,9 @@ Summarized dispersion:
     errors      0.506757  0.483444  0.287823
     inaccuracy  0.506757  0.462400  0.290275
 
+The standard deviation is a reasonable measure of dispersion of accuracy.
+
+
 ## Comparing two basketball players
 
 I loaded two players' files.  Example: Steph Curry from 2016.
@@ -257,6 +260,27 @@ From the command line I called the key to read this.  I could save the output to
 
     $ python player_accuracy.py test > test_std.tsv
 
+Another example with 3 players' seasons:
+
+    >>> baseball = concat_csvs([
+    ...     'arroybr01_gamelog_batting_2014.csv',
+    ...     'fernajo02_gamelog_batting_2016.csv',
+    ...     'donaljo02_gamelog_batting_2016.csv'],
+    ...     'group')
+    >>> baseball.to_csv('test_baseball3.tsv', index=False, sep='\t')
+    >>> basketball = concat_csvs([
+    ...     'abdulka01_gamelog_1989.csv',
+    ...     'curryst01_gamelog_2016.csv',
+    ...     'jamesle01_gamelog_2016.csv'], 'group')
+    >>> basketball.to_csv('test_basketball3.tsv', index=False, sep='\t')
+    >>> print(compare_tsv('test_ball3', configs)) #doctest: +NORMALIZE_WHITESPACE
+    group	attempts	corrects	accuracy	errors	inaccuracy
+    test_baseball3.tsv	9.337	2.425	0.248	7.051	
+    test_basketball3.tsv	4.463	2.561	0.124	3.094	0.565
+
+In batting averages per game, the increased deviation is easily explained by the lesser number of times at bat than a basketball player's field goal attempts.
+
+
 
 # Comparing to random
 
@@ -298,6 +322,9 @@ I expected more dispersion in the set with a random range.  And more dispersion 
     <BLANKLINE>
 
 Median standard deviation of accuracy (corrects / attempts) the most comparable among these metrics.
+
+The standard deviation diminishes drastically when comparing 10 to 100 sessions with a fixed accuracy rate.  Such as 0.20 to 0.05.  Whereas the random accuracy rate diminishes much less.  Such as 0.33 to 0.29.
+
 
 ### Not dispersion of percentiles
 

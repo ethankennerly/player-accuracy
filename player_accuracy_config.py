@@ -17,4 +17,10 @@ configs = {
         ['test_random_0.0_1.0_10_10.tsv', 'attempts', 'corrects', 'group'],
         ['test_random_0.0_1.0_100_100.tsv', 'attempts', 'corrects', 'group'],
     ],
+    'test_random_low_mid_high': [
+        ['test_random_0.05_0.05_10_10.tsv', 'attempts', 'corrects', 'group'],
+        ['test_random_0.35_0.35_10_10.tsv', 'attempts', 'corrects', 'group'],
+        ['test_random_0.65_0.65_10_10.tsv', 'attempts', 'corrects', 'group'],
+        ['test_random_0.95_0.95_10_10.tsv', 'attempts', 'corrects', 'group'],
+    ]
 }

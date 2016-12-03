@@ -323,12 +323,85 @@ I expected more dispersion in the set with a random range.  And more dispersion 
 
 Median standard deviation of accuracy (corrects / attempts) the most comparable among these metrics.
 
-The standard deviation diminishes drastically when comparing 10 to 100 sessions with a fixed accuracy rate.  Such as 0.20 to 0.05.  Whereas the random accuracy rate diminishes much less.  Such as 0.33 to 0.29.
+The standard deviation diminishes drastically when comparing 10 session-attempts to 100 session-attempts with a fixed accuracy rate.  Such as 0.20 to 0.05.  Whereas the random accuracy rate diminishes much less.  Such as 0.33 to 0.29.
+
+
+
+### Standard distribution of a Bernoulli distribution
+
+Standard distribution of normal distribution does not vary.
+
+    >>> trials = [0.0, 1.0]
+    >>> std(trials)
+    0.5
+    >>> std(trials * 4)
+    0.5
+    >>> std(trials * 1028)
+    0.5
+
+But mathematicians don't use normal distribution for a binomial.  They use a formula of:
+
+    Var(x) = p * (1 - p)
+
+The result is the same:
+
+    >>> (0.125 * 0.875) ** 0.5
+    0.33071891388307384
+
+<https://en.wikipedia.org/wiki/Bernoulli_distribution>
+
+Standard deviation diminishes as accuracy rises (or lowers) from the 50%.  For example at 87.5% accuracy it diminishes from 0.5 to 0.3:
+
+    >>> trials = [0, 1, 1, 1, 1, 1, 1, 1]
+    >>> std(trials)
+    0.33071891388307384
+    >>> std(trials * 4)
+    0.33071891388307384
+    >>> std(trials * 1028)
+    0.33071891388307384
+
+Some more values, at 92.5% the result is nearly half of 50% and at 97.5% the deviation is a third.
+
+    >>> (0.375 * 0.625) ** 0.5
+    0.4841229182759271
+    >>> (0.075 * 0.925) ** 0.5
+    0.26339134382131846
+    >>> (0.025 * 0.975) ** 0.5
+    0.15612494995995996
+
+So if a game has higher accuracy on average, it can expect to have thinner deviation.
+
+
+
+### Standard deviation of sessions
+
+If sessions are modeled as a series of Bernoulli with varying probability per session, then the averages that are near the middle deviate more.  At either extreme accuracy of 0% or 100% the range that would be deviating is clamped.  Above the deviation for 50% accuracy was higher than the deviation for 25% accuracy.  Here's another example at 65% and 95%
+
+    >>> accuracy_ranges = [[0.05, 0.05], [0.35, 0.35], [0.65, 0.65], [0.95, 0.95]]
+    >>> players_sessions = [10]
+    >>> pprint(random_csvs(accuracy_ranges, players_sessions))
+    ['test_random_0.05_0.05_10_10.tsv',
+     'test_random_0.35_0.35_10_10.tsv',
+     'test_random_0.65_0.65_10_10.tsv',
+     'test_random_0.95_0.95_10_10.tsv']
+
+The accuracy towards the middle deviates more than at the extremes.  In this tiny sample, it is about 0.07 at 5% or 95% accuracy.  And about 0.14 at 35% or 65% accuracy.  That is approximately twice.
+
+    >>> print(compare_tsv('test_random_low_mid_high', configs)) #doctest: +NORMALIZE_WHITESPACE
+    group	attempts	corrects	accuracy	errors	inaccuracy
+    test_random_0.05_0.05_10_10.tsv	0.0	0.691	0.069	0.691	
+    test_random_0.35_0.35_10_10.tsv	0.0	1.434	0.143	1.434	1.814
+    test_random_0.65_0.65_10_10.tsv	0.0	1.464	0.146	1.464	0.405
+    test_random_0.95_0.95_10_10.tsv	0.0	0.699	0.07	0.699	0.084
+    <BLANKLINE>
+
 
 
 ### Not dispersion of percentiles
 
 I measured dispersion of percentiles of accuracy. The results were probably equal for the random sets.  
+
+
 
 ### Not coefficient of variation
 

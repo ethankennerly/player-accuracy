@@ -5,6 +5,7 @@ More info in README.md
 
 from pandas import DataFrame, read_csv, read_table, to_numeric
 import pandas
+from numpy import std
 
 from player_accuracy_config import configs
 from StringIO import StringIO
@@ -83,29 +84,29 @@ def random_csvs(accuracy_ranges, players_sessions,
     paths = []
     for low, high in accuracy_ranges:
         for player_count in players_sessions:
-            attempts = []
-            corrects = []
-            player_ids = []
-            for player_id in range(player_count):
-                for session_count in range(player_count):
-                    correct_count = 0
-                    attempt_count = 0
-                    accuracy = random() * (high - low) + low
-                    for attempt in range(player_count):
-                        attempt_count += 1
-                        if random() < accuracy:
-                            correct_count += 1
-                    player_ids.append(player_id)
-                    attempts.append(attempt_count)
-                    corrects.append(correct_count)
-            sessions = DataFrame()
-            sessions[group_name] = player_ids
-            sessions[attempt_name] = attempts
-            sessions[correct_name] = corrects
             path = 'test_random_%s_%s_%s_%s.tsv' % (
                 low, high, player_count, player_count)
             paths.append(path)
             if not exists(path):
+                attempts = []
+                corrects = []
+                player_ids = []
+                for player_id in range(player_count):
+                    for session_count in range(player_count):
+                        correct_count = 0
+                        attempt_count = 0
+                        accuracy = random() * (high - low) + low
+                        for attempt in range(player_count):
+                            attempt_count += 1
+                            if random() < accuracy:
+                                correct_count += 1
+                        player_ids.append(player_id)
+                        attempts.append(attempt_count)
+                        corrects.append(correct_count)
+                sessions = DataFrame()
+                sessions[group_name] = player_ids
+                sessions[attempt_name] = attempts
+                sessions[correct_name] = corrects
                 sessions.to_csv(path, index=False, sep='\t')
     return paths
 
